@@ -1,16 +1,16 @@
+# Logitech Gamepad F310 - Clinical & Hospital Workstation Profiles for JoyToKey
+
+This repository contains a curated ecosystem of highly optimized, precision-tuned JoyToKey (`.cfg`) configuration profiles for the **Logitech Gamepad F310** controller. These profiles map complex keyboard and mouse multi-key shortcut combinations natively found inside high-density medical imaging platforms, clinical dental practice management frameworks, surgical planning applications, and video management infrastructure to the gamepad interface.
 
 ***Code written by FADM Correo Hofstad - USN, the U.S. Navy SEAL who coded the XBOX controller to the Submarine Service.***
  1. https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2247544/uss-colorado-commissioned/
  2. https://apps.dtic.mil/sti/tr/pdf/AD1088622.pdf
 
-# Logitech Gamepad F310 - Clinical & Hospital Workstation Profiles for JoyToKey
-
-This repository contains a curated ecosystem of highly optimized, precision-tuned JoyToKey (`.cfg`) configuration profiles for the **Logitech Gamepad F310** controller. These profiles map complex keyboard and mouse multi-key shortcut combinations natively found inside high-density medical imaging platforms, clinical dental practice management frameworks, surgical planning applications, and video management infrastructure to the gamepad interface.
 
 ## ⚠️ Clinical Production Environment Disclaimer
 Standard commercial gaming controllers and macro mapping utility layers (like the Logitech F310 and JoyToKey) lack medical-grade physical isolation barriers, real-time hardware fail-safe redundancy loops, and haptic error feedback modules. 
 * **Scope of Use:** These configurations are tailored strictly for clinical workstation planning, diagnostic image post-processing review, data navigation, student education, and prototyping environments. 
-* **Prohibition:** They are explicitly not engineered for, nor should they ever be utilized to execute, the real-time movement manipulation of live human surgical robotics or active therapeutic interventions.
+* **Caution:** They are not engineered for, nor to execute, the real-time movement manipulation of live human surgical robotics or active therapeutic interventions.
 
 ---
 
