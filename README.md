@@ -81,3 +81,58 @@ To protect alignment workflows and ensure sub-millimeter cursor selection accura
 *   [`Philips_Azurion_FlexVision_Clinical.cfg`](./profiles/Philips_Azurion_FlexVision_Clinical.cfg): Navigates FlexVision Pro display walls, stepping frame-by-frame through DSA cine runs, and managing real-time Roadmap overlays and ClarityIQ noise reduction filters.
 *   [`Siemens_Artis_Icono_Pheno_Clinical.cfg`](./profiles/Siemens_Artis_Icono_Pheno_Clinical.cfg): Connects syngo workflow tiles, enabling multi-planar window contrast alterations, subtraction masks, and CLEARstent live stent optimization views.
 *   [`GE_HealthCare_Allia_Innova_Clinical.cfg`](./profiles/GE_HealthCare_Allia_Innova_Clinical.cfg): Interoperable layout for Central Touch Panels (TPM), controlling Innova3D volumetric reconstructions, VesselAssure vectors, and ValveASSIST heart overlays.
+*   [`GE_HealthCare_Allia_Innova_Clinical.cfg`: Interoperable layout for Central Touch Panels (TPM), controlling Innova3D volumetric reconstructions, VesselAssure vectors, and ValveASSIST heart overlays.
+*   [`Canon_Alphenix_4DCT_Hybrid.cfg`: High-stakes hybrid layout managing Aquilion CT volume stacks, Alphenix angio runs, embolization planning paths, and Illuxtra 3D vessel tracking.
+
+### 📐 Radiotherapy Patient Alignment, Gating, & SGRT
+
+*   [`LAP_Laser_Apollo_Astor_Precision.cfg`: Manages room coordinate calibration files, manual laser translation adjustments, laser auto-zero routines, and multi-planar geometric measurement crosshairs.
+*   [`Sun_Nuclear_Gammex_MicroPlus_Precision.cfg`: Enforces high center dead zones for daily phantom QA, step-size alterations, isocenter verification checks, and system standby transitions.
+*   [`CYRPA_HIT_Laser_Precision.cfg`: Configured for moving laser arrays, allowing safe step tracking increments, phantom benchmark locks, and real-time room calibration verification.
+*   [`Vision_RT_AlignRT_Clinical_Precision.cfg`: SGRT interface mapping for real-time region of interest (ROI) selection, motion gating threshold scaling, surface heat map displacements, and immediate baseline capture accept locks.
+*   [`CRAD_CatalystPlus_Clinical_Precision.cfg`: Integrates live intrafraction motion trend charts, respiratory gating tolerance shifts, baseline contour overlays, and verified configuration locks.
+*   [`LAP_LUNA3D_Clinical_Precision.cfg`: Connects optical camera validation monitors, providing structured control over delta positioning grids, thermal displacement maps, and verified setup parameters.
+
+### 🦷 Dental Practice Management & Intraoral Specialists
+
+*   [`HenryScheinOne_Dentrix_Clinical.cfg`: Dental charting environment profile featuring a dedicated Periodontal pocket-depth numerical entry mapping via chorded D-pad/Face key combinations, module routing, and radiograph contrast sharpening filters.
+*   [`Carestream_Dental_CSImaging_Clinical.cfg`: Formatted for CS Imaging suites. Includes mandibular nerve canal seed mapping, 3D structure transparency toggles, implant simulation templates, and cephalometric ray tracing overlays.
+*   [`Carestream_PracticeWorks_Clinical.cfg`: High-precision layout managing Appointment Books, clinical notes text input focus jumps, treatment plan fields, account ledgers, and intraoral bone grids.
+
+### 📋 Healthcare Technology Management (HTM) & Clinical Engineering
+
+*   [`Phoenix_Data_Systems_AIMS_Precision.cfg`: Optimized for biomedical asset registry workflows, logging labor/parts expenses, toggling work order statuses (In Progress, Waiting for Parts, Complete), and executing PM compliance checklist validations.
+*   [`Nuvolo_ConnectedWorkplace_Clinical.cfg`: Formatted for Nuvolo CLM platforms on ServiceNow. Maps precise database row selections, automated parts request workflows, lifecycle state parameters, and electronic signature submittals.
+*   [`MediMizer_Asset_Management_Precision.cfg`: Enforces strict dead zones for navigating dense equipment logs, managing preventive maintenance (PM) compliance profiles, and executing server validation sync updates.
+
+### 🌐 Hospital Facilities, Building Management (BMS) & RTLS Infrastructure
+
+*   [`CenTrak_RTLS_Clinical_Precision.cfg`: Tailored for CenTrak's clinical-level visibility systems. Maps floor-plan navigation, tracking node queries, dirty utility/clean room tag status updates, and emergency alert acknowledgments.
+*   [`Securitas_AeroScout_RTLS_Precision.cfg`: High-density map navigation for AeroScout Wi-Fi asset tracking and environmental temperature monitoring. Allows rapid vaccine refrigerator temp-check logging and staff safety alert silencing.
+*   [`Schneider_Electric_EcoStruxure_Healthcare.cfg`: Controls Power SCADA dashboards, environmental overlays, isolation room negative/positive pressure state flips, and airflow air changes per hour (ACH) fan tuning.
+*   [`Siemens_DesigoCC_Healthcare_Precision.cfg`: Interfaces with Desigo CC systems to review medical gas pipelines, calibrate OR laminar airflow variables, manipulate graphic plant overlays, and acknowledge building infrastructure faults.
+
+### 📋 EHR, Spreadsheet Management, & Clinical Registries
+
+*   [`Medical_EHR_Data_Management.cfg`: A production-grade macro layout built to accelerate long XLS/CSV registries and Electronic Health Record databases (Epic, Cerner, eClinicalWorks). Bridges fast column/row sheet scrolls, global searches, clipboard hooks, row insertion/deletion filters, and e-signature chart sign-off commands.
+
+### 📑 Clinical Laboratory & Specialized Diagnostics
+
+*   [`LabWare_LIMS_Enterprise.cfg`: Provides chorded control over high-throughput specimen logs, plate map overlays, row filtering, and bulk batch validation sign-offs.
+*   [`Natus_Otosuite_Audiology.cfg`: Maps manual hearing level decibel (dB) selections, stimulus octave frequency tracking (Hz), continuous/pulsed stimulus audio tone delivery, red/blue ear channels, and tympanometry layouts.
+*   [`Philips_IntelliSpace_ICCA.cfg`: Designed for ICU and anesthesia care auditing. Scrubs historical physiological vital timeline streams (ECG, capnography, lines) continuously over hours while flagging medical intervention markers.
+*   [`Zeiss_Forum_Ophthalmology.cfg`: Retinal imaging post-processing tool. Maps foveal OCT slice scroll stacks, macular thickness maps, eye comparison panels (OD vs. OS), and retinal layer tracking lines.
+*   [`Varian_Eclipse_TPS.cfg`: Radiation oncology inverse treatment planning optimization. Triggers structural organ-at-risk (OAR) contour mapping, multi-angle beam targets, multi-leaf collimator (MLC) shapes, and Dose-Volume Histogram (DVH) overlays.
+
+### 🎓 Interactive Clinical Reasoning, Simulation, & Surgical Training
+
+*   [`Osso_VR_Proctor_Precision.cfg`: Proctor dashboard companion layout for tracking multi-user VR operating room lobbies, zooming 3D feeds, toggling tool trays, and submitting performance scorecards.
+*   [`PrecisionOS_Proctor_Evaluation.cfg`: Evaluation node profile for checking biomechanical loading data, tracking bone-screw vectors, spinal alignment tolerances, and pushing certification analytics.
+*   [`FundamentalVR_Proctor_Evaluation.cfg`: Connects case evaluator panels to monitor sub-surface tissue deformation scales, bone incision pathways, force feedback parameters, and multi-angle reference cameras.
+*   [`BodyInteract_Clinical_Reasoning_Precision.cfg`: Instructors profile to navigate acute distress tracking timelines (cardiac arrest, trauma), manage drug orders, launch intubations, and log performance scores under time metrics.
+*   [`Oxford_Medical_Simulation_OMS_Precision.cfg`: Nursing and medical school proctor system. Maps timeline logs, communication marker grids, prioritization dashboards, and diagnostic debriefing card submittals.
+*   [`Laerdal_LLEAP_SimMan_Precision.cfg`: Drives the LLEAP software backbone behind robotic patient mannequins. Features quick-keys for triggering sudden hemorrhages, tongue edema, laryngospasms, cardiac arrest, and CPR quality checks.
+*   [`Kenhub_Anatomy_Learning_Precision.cfg`: Accelerates learning with a multiple-choice response keypad (Options A-D), automated quiz navigation, flashcard flipping loops, and Latin/English toggle switches.
+*   [`Osmosis_OnlineMedEd_BoardPrep.cfg`: Optimized for intense USMLE/NCLEX board prep. Maps HTML5 video speed scaling, timeline scrubbing arrows, Qbank checklist boxes, and playlist hooks.
+
+* * * * *
