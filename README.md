@@ -9,6 +9,16 @@ Standard commercial gaming controllers and macro mapping utility layers (like th
 
 ---
 
+
+## 📈 System Components & Procurement Routing
+
+| Hardware Node | System Operational Purpose | Strategic Marketplace Access |
+| :--- | :--- | :--- |
+| **Logitech Gamepad F310** | High-stiffness, zero-drift analog translation interface featuring dual-bumper chorded multi-mapping layers. | [Secure Primary Controller](https://amzn.to/3T3mLam) |
+| **USBGear 4-Port Hub** | Mountable, metal-enclosed USB 3.2 Gen 1 SuperSpeed backplane ensuring completely isolated 5Gbps device communication data tracks. | [Secure Communication Backplane](https://amzn.to/3R5Er4H) |
+
+---
+
 ## 🛠️ Hardware Setup: Mandatory DirectInput Toggle
 Before launching your workstation or loading any configuration profiles into the JoyToKey application layer, look at the physical rear housing of your **Logitech Gamepad F310**. 
 1. Locate the slide toggle switch labeled **X** (XInput) and **D** (DirectInput).
