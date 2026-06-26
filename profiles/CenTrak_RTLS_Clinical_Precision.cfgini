@@ -1,0 +1,96 @@
+[General]
+FileVersion=57
+NumberOfJoysticks=3
+NumberOfButtons=12
+DisplayMode=2
+
+# =====================================================================
+# HARDWARE SENSITIVITY & DEAD ZONE TUNING (GLOBAL OVERRIDES)
+# =====================================================================
+# Implements a secure 20% mechanical center dead zone to absorb physical
+# vibrations and guarantee that active asset map trackers do not drift.
+StickDeadZone=20
+SplitAxisThreshold=45
+
+[Joystick1]
+# Left Analog Stick: Controls Windows Mouse Cursor (Live Facility Map / Target Grid Selection)
+# Highly dampened non-linear translation curve to provide precise tracking node selections.
+Axis1X=1, -32
+Axis1X=2, 32
+Axis1Y=1, -32
+Axis1Y=2, 32
+
+# Right Analog Stick: High-Speed System Event Log & Asset Registry Grid Scrolling
+# Maps to standard mouse wheel scrolling to step smoothly through live telemetry fields.
+Axis2X=3, -50        # Scroll Left (Parse prior asset metadata columns)
+Axis2X=4, 50         # Scroll Right (Parse forward asset metadata columns)
+Axis2Y=3, -50        # Scroll Up (Parse prior live location records)
+Axis2Y=4, 50         # Scroll Down (Parse later live location records)
+
+# D-Pad (POV): Fine Layout Grid Selection / Floor-to-Floor Map Elevation Shifts
+POV1-1=1, 26:00:00:00  # POV Up -> Up Arrow Key (Navigate grid up / Upper floor view)
+POV1-5=1, 27:00:00:00  # POV Down -> Down Arrow Key (Navigate grid down / Lower floor view)
+POV1-7=1, 25:00:00:00  # POV Left -> Left Arrow Key
+POV1-3=1, 28:00:00:00  # POV Right -> Right Arrow Key
+
+# Face Buttons: Core System Actions & Map Interface Controls
+Button1=1, 09:00:00:00  # Button A -> Tab Key (Instantly advances text field or moves filter cell right)
+Button2=2, 00000001, 0  # Button B -> Left Mouse Click (Select specific active tracking beacon node)
+Button3=2, 00000002, 0  # Button X -> Right Mouse Click (Deploys tracking tag option context parameters)
+Button4=1, 11:46:00:00  # Button Y -> Combo: Ctrl + F (Instantly launches Search Panel / Find Asset Tag ID)
+
+# Shoulder Shifts: Chorded Multi-Mapping Activators
+Button5=5, 2, 0         # Left Bumper (LB) -> HOLD for LAYER 2 (Sterilization Workflows & Asset Status Logs)
+Button6=5, 3, 0         # Right Bumper (RB) -> HOLD for LAYER 3 (Module Workspace Jumps & Alerts Hub)
+
+# ANALOG TRIGGER SENSITIVITY DESIGNATION (Buttons 11 & 12)
+# Configured with an intentional 85% throw boundary to completely isolate against ghost inputs.
+Button11=1, 1B:00:00:00, 85 # Left Trigger (LT) -> Escape Key (Aborts active search filter / Exits modal window)
+Button12=1, 11:53:00:00, 85 # Right Trigger (RT) -> Combo: Ctrl + S (Saves location tracking baseline configurations)
+
+# System Utilities
+Button7=1, 11:5A:00:00  # BACK Button -> Combo: Ctrl + Z (Global Undo last layout or annotation modification)
+Button8=1, 11:59:00:00  # START Button -> Combo: Ctrl + Y (Global Redo last layout or data entry modification)
+Button9=1, 11:43:00:00  # L3 (Left Stick Click) -> Combo: Ctrl + C (Fast Copy highlighted asset tag string)
+Button10=1, 11:56:00:00 # R3 (Right Stick Click) -> Combo: Ctrl + V (Fast Paste captured tracking criteria string)
+
+# =====================================================================
+# LAYER 2: HOLDING LB (BUTTON 5) - STERILIZATION WORKFLOWS & STATUS LOGS
+# =====================================================================
+[Joystick2]
+# Cursor velocity steps down an additional 50% when LB is squeezed
+# for micro-precision selection of small dropdown elements or toggle fields.
+Axis1X=1, -16
+Axis1X=2, 16
+Axis1Y=1, -16
+Axis1Y=2, 16
+Axis2X=0
+Axis2Y=3, -38
+Axis2Y=4, 38
+# Active maintenance and disinfection state mapping shortcuts configured when LB is compressed
+Button1=1, 11:10:31:00  # LB + Button A -> Combo: Ctrl + Shift + 1 (Sets tag status to: Clean / Sterile Baseline)
+Button2=1, 11:10:32:00  # LB + Button B -> Combo: Ctrl + Shift + 2 (Sets tag status to: Dirty Utility / Needs Sterilization)
+Button3=1, 11:10:33:00  # LB + Button X -> Combo: Ctrl + Shift + 3 (Sets tag status to: In-Use / Patient Room Linked)
+Button4=1, 11:10:34:00  # LB + Button Y -> Combo: Ctrl + Shift + 4 (Sets tag status to: Out of Service / Biomech PM Required)
+
+# Focus Progression Modifiers
+Button11=1, 10:09:00:00, 65 # LB + LT -> Combo: Shift + Tab (Reverses active text field focus backward)
+Button12=1, 11:BD:00:00, 65 # LB + RT -> Combo: Ctrl + Minus (-) (Deletes selected data row or filter criteria)
+
+# =====================================================================
+# LAYER 3: HOLDING RB (BUTTON 6) - MODULE JUMPS & EMERGENCY ALERTS HUB
+# =====================================================================
+[Joystick3]
+Axis1X=1, -32
+Axis1X=2, 32
+Axis1Y=1, -32
+Axis1Y=2, 32
+# Rapidly shifts focus directly to targeted CenTrak functional modules
+Button1=1, 12:41:00:00  # RB + Button A -> Combo: Alt + A (Jumps active view directly to Live Facility Map Dashboard)
+Button2=1, 12:43:00:00  # RB + Button B -> Combo: Alt + C (Jumps active view directly to Global Asset Registry Inventory Grid)
+Button3=1, 12:4D:00:00  # RB + Button X -> Combo: Alt + M (Jumps active view directly to Workflow Event Log Framework)
+Button4=1, 20:00:00:00  # RB + Button Y -> Spacebar (Instantly ACKNOWLEDGES and silences active focused dirty utility room / clean room alert notification)
+
+# Window Workspace Traversal Parameters
+Button11=1, 12:09:00:00, 65 # RB + LT -> Combo: Alt + Tab (Quick-swaps focused active desktop windows)
+Button12=1, 11:F4:00:00, 65 # RB + RT -> Combo: Ctrl + F4 (Instantly closes the current open browser tab or module viewport)
