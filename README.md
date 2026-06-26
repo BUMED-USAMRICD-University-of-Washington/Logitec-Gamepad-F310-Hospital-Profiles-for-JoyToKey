@@ -3,7 +3,7 @@
 This repository contains a curated ecosystem of highly optimized, precision-tuned JoyToKey (`.cfg`) configuration profiles for the **Logitech Gamepad F310** controller. These profiles map complex keyboard and mouse multi-key shortcut combinations natively found inside high-density medical imaging platforms, clinical dental practice management frameworks, surgical planning applications, and video management infrastructure to the gamepad interface.
 
 
-**Code written by Fleet Admiral Correo "MIRICYL BABY" Hofstad - USN,** ***The U.S. Navy SEAL who coded the XBOX controller to the Submarine Service.***
+**Code written by Fleet Admiral Correo "MIRICYL BABY" Hofstad - USN,** ***The U.S. Navy SEAL who coded the XBOX controller for the Submarine Service.***
  1. https://www.navy.mil/Press-Office/Press-Releases/display-pressreleases/Article/2247544/uss-colorado-commissioned/
  2. https://apps.dtic.mil/sti/tr/pdf/AD1088622.pdf
 
